@@ -44,6 +44,26 @@ header {
   background-color: #0D2641;
 }
 
+.top-jump {
+  text-decoration: none;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  background: #0D2641;
+  border: solid 2px #F9F6F6;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+.top-jump p {
+  color: #F9F6F6;
+  font-weight: 600;
+}
+
 .pagetop {
   height: 50px;
   width: 50px;
@@ -156,6 +176,12 @@ header {
 
 footer {
   width: 100%;
-  height: 150px;
+  height: 300px;
   background-color: #0D2641;
+}
+footer .copyright {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
 }/*# sourceMappingURL=work_compe_resort.css.map */
